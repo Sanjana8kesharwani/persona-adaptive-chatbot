@@ -28,7 +28,7 @@ async function sendMessage() {
 
   chatBox.scrollTop = chatBox.scrollHeight;
 
-  const res = await fetch("http://localhost:3000/chat", {
+  const res = await fetch("https://chatbot-backend-lnuh.onrender.com/chat", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
